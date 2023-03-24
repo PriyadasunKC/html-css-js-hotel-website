@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: none;
+    overflow-x: hidden;
+    height: 500px;
+}
+
+#mainContainer {
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+    color: black;
+    background-color: white;
+    position: relative;
+    font-family: Poppins;
+}
+
+#NameOfHotel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#logo {
+    position: absolute;
+    z-index: 9;
+    width: 220px;
+    height: 163px;
+    background-color: RGBa(71, 52, 54, 0.95);
+    left: 50px;
+}
+
+#mainLogo {
+    position: relative;
+    left: 58px ;
+    top: 28px;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+#navigationBar {
+    position: absolute;
+    right: 200px;
+    margin: 0;
+    padding: 25px;
+    text-align: right;
+}
+
+#navigationBar li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#navigationBar li a {
+    text-decoration: none;
+    color: rgba(90, 69, 71, 0.8);
+    font-size: 16px;
+    padding-bottom: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#navigationBar li a:hover {
+    color: rgba(90, 69, 71, 1.0);
+    border-bottom: 5px solid rgba(90, 69, 71, 0.9);
+    ;
+}
+
+#Mobile {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
+    font-size: 14px;
+
+}
+
+#number {
+    background-color: RGBa(71, 52, 54, 0.55);
+    color: white;
+    padding: 2px 15px 2px 15px;
+
+}
+
+#reserve {
+    background-color: RGBa(71, 52, 54, 0.95);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+}
+
+#reserve a {
+    color: white;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+#topic {
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    z-index: 5;
+}
+
+#topic h1 {
+    position: relative;
+    font-family: Arapey;
+    font-size: 82px;
+    font-weight: 400;
+    color: white;
+    line-height: 40px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#topic p {
+    position: relative;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#bottomGallery {
+    margin: 0;
+    padding-top: 10px;
+    position: relative;
+    height: 120px;
+    top: 0px;
+    padding-left: 20%;
+    background-color: #000000;
+    width: 100%;
+}
+
+#line1 {
+    font-family: Nunito, sans-serif;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#line2 {
+    font-family: Arapey;
+    line-height: 1px;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#mainImageContainer {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 5;
+}
+
+#recepImage {
+    width: 100%;
+    height: 550px;
+    opacity: 0.75;
+}
+
+#service1 {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 780px;
+    left: 25%;
+    padding-top: 8%;
+    height: 400px;
+}
+
+#text1 {
+    font-family: Nunito, sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #5a4547;
+}
+
+#text2 {
+    font-family: Arapey;
+    color: #5a4547;
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-weight: 200;
+}
+
+#text3 {
+    font-family: Nunito, sans-serif;
+    color: #000000;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+#underlineDual {
+    font-family: Arapey;
+    font-weight: 200;
+    font-size: 42px;
+    color: #5a4547;
+    border-bottom: 4px solid rgba(198, 198, 198, 0.8);
+    padding-bottom: 20px;
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: -150px;
+}
+#social{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#social a{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 50px;
+    
+}
+
+#foot p{
+    color: white;
+    font-size: 10px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    padding-bottom: 20px;
+}
+#backToTop{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    bottom: 10px;
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    cursor: pointer;
+  }
+  #backToTop a i{
+    position: relative;
+    text-align: center;
+    top: 18px;
+    right: px;
+    color: white;
+  }
+
+  .container-fluid{
+    padding-top: 10px;
+    padding-bottom: 250px;
+  }
